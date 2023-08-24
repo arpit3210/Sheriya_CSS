@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Ops+One&family=Noto+Serif+Vithkuqi:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 158, 226, 0.89);
+    display: flex;
+}
+
+
+#part1 {
+
+    height: 100%;
+    width: 26%;
+    /* background-color: antiquewhite; */
+}
+
+#part2 {
+
+    height: 100%;
+    width: 64%;
+    background-image: url(https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(236, 137, 7);
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 124, 177, 0.301);
+}
+
+#part3 {
+
+    height: 100%;
+    width: 10%;
+    /* background-color: rgb(215, 250, 218); */
+}
+
+
+#text-div {
+    /* height: 300px; */
+    width: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 5%;
+    top: 50%;
+    transform: translate(0, -150%);
+}
+
+
+#text-div>h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: 1100;
+    color: aliceblue;
+    font-family: 'Anton', sans-serif;
+
+    line-height: 70px;
+    letter-spacing: 15px;
+}
