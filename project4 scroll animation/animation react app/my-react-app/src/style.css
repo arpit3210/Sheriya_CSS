@@ -1,13 +1,14 @@
 
 
-body{
+/* body{
 
-    background-color: #131316;
-    color: #ffffff;
+
+    color: black;
+   
     font-family: 'poppins', sans-serif;
     padding: 0;
     margin: 0;
-}
+} */
 
 section {
 
@@ -21,7 +22,7 @@ section {
 .hidden{
 
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(3px);
     transform: translateX(-100%);
     transition: all 2s;
    
